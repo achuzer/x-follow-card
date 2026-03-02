@@ -1,0 +1,81 @@
+.x-followCard {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 0 15px 0 15px;
+    transition: ease 0.3s;
+}
+
+.x-followCard:last-child {
+    border-radius: 0 0 15px 15px;
+}
+
+.x-followCard:hover {
+    background-color: rgba(255, 255, 255, 0.041);
+    
+}
+
+.x-followCard-avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+.x-followCard-info {
+    width: 185px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.x-followCard-name {
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.x-followCard-verified {
+    margin-left: 5px;
+}
+
+.x-followCard-username {
+    color: rgb(116, 116, 116);
+    font-size: 15px;
+}
+
+.x-followCard-buttonContainer {
+    width: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.x-followCard-button {
+    color: black;
+    font-weight: 700;
+    height: 30px;
+    width: 80px;
+    background-color: white;
+    border: 0px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+
+.x-followCard-button:hover {
+    background-color: rgb(236, 236, 236);
+}
+
+.x-followCard-button.is-following {
+    color: white;
+    width: 100px;
+    background-color: transparent;
+    border: 1px solid rgb(116, 116, 116);
+}
+
+.x-followCard-button.is-following:hover {
+    color: red;
+    background-color: rgba(255, 0, 0, 0.116);
+    border: 1px solid rgb(90, 0, 0);
+}
